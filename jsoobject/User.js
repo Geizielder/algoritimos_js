@@ -10,10 +10,3 @@ export default class User {
        return `${this.nome}, ${this.email}`
     }
 }
-
-const novoUser = new User('Jesus','emanuel@ceu.com', '0030-25-12', 'admin')
-
-console.log(novoUser);
-console.log(novoUser.exibirInfos());
-
-console.log(User.prototype.isPrototypeOf(novoUser));
